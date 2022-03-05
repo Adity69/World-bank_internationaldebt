@@ -1,0 +1,2 @@
+SELECT country_code,series_code,description FROM `bigquery-public-data.world_bank_intl_debt.country_series_definitions` 
+WHERE series_code='DT.DOD.DECT.CD' AND country_code='IND' 
