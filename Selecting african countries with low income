@@ -1,0 +1,2 @@
+SELECT currency_unit,income_group,short_name FROM `bigquery-public-data.world_bank_intl_debt.country_summary` 
+WHERE currency_unit='West African CFA franc' AND income_group='Low income'
