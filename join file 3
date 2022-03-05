@@ -1,0 +1,4 @@
+SELECT aa.value,bb.country_code
+FROM `bigquery-public-data.world_bank_intl_debt.international_debt`   as aa
+Right JOIN  bigquery-public-data.world_bank_intl_debt.country_summary  as bb
+ON aa.country_code=bb.country_code
