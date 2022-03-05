@@ -1,0 +1,2 @@
+SELECT series_code,year,description FROM `bigquery-public-data.world_bank_intl_debt.series_times`
+WHERE  series_code='DT.DOD.PVLX.CD'
