@@ -1,0 +1,2 @@
+SELECT country_code,short_name,table_name,long_name, FROM `bigquery-public-data.world_bank_intl_debt.country_summary` 
+WHERE  short_name='Lower middle income'
