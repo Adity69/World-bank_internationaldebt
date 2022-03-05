@@ -1,0 +1,2 @@
+SELECT country_code,short_name,special_notes FROM `bigquery-public-data.world_bank_intl_debt.country_summary`
+WHERE short_name='East Asia & Pacific (excluding high income)'OR short_name= 'Europe & Central Asia (excluding high income)'OR special_notes='does not include high-income economies'
