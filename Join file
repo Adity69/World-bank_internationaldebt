@@ -1,0 +1,5 @@
+SELECT aa.country_code,bb.currency_unit
+FROM `bigquery-public-data.world_bank_intl_debt.country_series_definitions`   as aa
+LEFT JOIN bigquery-public-data.world_bank_intl_debt.country_summary  as bb
+ON aa.country_code=bb.currency_unit
+
