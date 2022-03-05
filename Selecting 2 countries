@@ -1,0 +1,2 @@
+SELECT  country_code,country_name, indicator_name,indicator_code,value,year FROM `bigquery-public-data.world_bank_intl_debt.international_debt` 
+WHERE country_code='IND'OR country_code='ROU'
