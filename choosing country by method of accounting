@@ -1,0 +1,2 @@
+SELECT country_code,income_group,short_name,table_name,long_name,national_accounts_base_year,system_of_national_accounts FROM `bigquery-public-data.world_bank_intl_debt.country_summary` 
+WHERE  income_group='Upper middle income'OR  income_group='Low income' AND system_of_national_accounts='Country uses the 2008 System of National Accounts methodology' OR system_of_national_accounts='Country uses the 1993 System of National Accounts methodology'
